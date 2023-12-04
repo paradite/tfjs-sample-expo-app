@@ -8,9 +8,7 @@ import {
 import React, { useState } from 'react';
 
 import * as tf from '@tensorflow/tfjs';
-// import '@tensorflow/tfjs-react-native';
-// import 'tfjs-react-native-para-patch/dist/platform_react_native';
-import 'tfjs-react-native-para-patch';
+import '@tensorflow/tfjs-react-native';
 
 export default function App() {
   const [isTfReady, setIsTfReady] = useState(false);
